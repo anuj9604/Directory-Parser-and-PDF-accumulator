@@ -41,7 +41,7 @@ class interface:
         root.geometry("370x600")
         root.resizable(False, False)
         logo_img = tkinter.PhotoImage(
-            file=r"E:\Python Scripts\Directory Parser and PDF accumulator\Gui_Builder\Logo.png"
+            file=r".\Gui_Builder\Logo.png"
         )
         logo_img = logo_img.subsample(3, 3)
         logo = tkinter.Label(root, image=logo_img)
